@@ -1,3 +1,5 @@
+package com.bvan.javastart.lessons1_2;
+
 /**
  * @author bvanchuhov
  */
@@ -12,8 +14,8 @@ public class Types {
         long l = 1000000000000000000L; // 8 B
 
         // 2. Floating point
-        float f = 10.5f;
-        double d = 10.5;
+        float f = 10.5f; // 4 B
+        double d = 10.5; // 8 B
 
         // 3. Char
         char c = 'a';
