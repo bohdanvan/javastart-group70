@@ -1,0 +1,59 @@
+1. Петя ест пирожки и после каждого съеденного говорит,
+какой пирожок съел:
+I have eaten _ cake.
+
+IN: cakes=3
+OUT:
+I have 3 cakes.
+I have eaten 1 cake.
+I have eaten 2 cake.
+I have eaten 3 cake.
+--------------------------------
+2. Петя есть пирожки и после каждого съеденного говорит,
+сколько пирожков осталось:
+I have eaten a cake. _ are left.
+
+IN: cakes=3
+I have 3 cakes.
+I have eaten a cake. 2 are left.
+I have eaten a cake. 1 are left.
+I have eaten a cake. 0 are left.
+--------------------------------
+3. Как задача 1, но после каждого 2-го пирожка добавляет:
+Wonderful world.
+
+IN: cakes=4.
+I have 4 cakes.
+I have eaten 1 cake.
+I have eaten 2 cake.
+Wonderful world.
+I have eaten 3 cake.
+I have eaten 4 cake.
+Wonderful world.
+--------------------------------
+4. Как задача 1, но после обределенного пирожка Пете становится плохо. Он есть и добавляет:
+I'm feeling bad.
+
+IN: cakes=3, borderCake=1.
+I have 3 cakes.
+I have eaten 1 cake.
+I have eaten 2 cake.
+I'm feeling bad.
+I have eaten 3 cake.
+I'm feeling bad.
+--------------------------------
+5. Как задача 1, только со многими людьми.
+
+IN: people=3, cakes=2.
+OUT:
+I'm 1 person. I have 2 cakes.
+I'm 1 person. I have eaten 1 cake.
+I'm 1 person. I have eaten 2 cake.
+
+I'm 2 person. I have 2 cakes.
+I'm 2 person. I have eaten 1 cake.
+I'm 2 person. I have eaten 2 cake.
+
+I'm 3 person. I have 2 cakes.
+I'm 3 person. I have eaten 1 cake.
+I'm 3 person. I have eaten 2 cake.
