@@ -1,6 +1,6 @@
 1. class Geometry
 
-    Написать методы вычисляющие прощади геометрических фигур: прямоугольника и круга.
+    Написать методы вычисляющие площади геометрических фигур: прямоугольника и круга.
     В случае некорректно заданных параметров бросать IllegalArgumentException.
 
     Формулы:
@@ -20,7 +20,7 @@
     3. Для круга размером 10.
     3. Для круга размером 20.
 
-2. class PerimetersCalculator
+2. class AreasCalculator
 
     Написать метод, вычисляющий площади нескольних прямоугольников.
     Для каждого прямоугольника ширина задана в массиве widths, высота в массиве heights,
@@ -29,17 +29,17 @@
     а площадь должна быть записана в результирующий массив под индексом 2.
     В случае, если размеры массивов widths и heights разные, бросить IllegalArgumentException.
 
-    double[] rectanglePerimeters(double[] widths, double[] heights) { ... }
+    double[] rectangleAreas(double[] widths, double[] heights) { ... }
 
     Пример:
-    rectanglePerimeters(new double[] {10, 30}, new double[] {20, 20}) ---> {200, 600}
+    rectangleAreas(new double[] {10, 30}, new double[] {20, 20}) ---> {200, 600}
 
 3. class AreasSumCalculator
 
     Написать метод, вычисляющий суммарную площадь нескольких кругов.
     Для каждого круга радиус задан в массиве radiuses.
 
-    double circleAreasSum(int[] radiuses) { ... }
+    double circleAreasSum(double[] radiuses) { ... }
 
     Пример:
     circleAreasSum(new double[] {10, 20}) ---> 1570.7963267948967

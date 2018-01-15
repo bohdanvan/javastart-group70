@@ -8,7 +8,6 @@ public class Discount {
     public static void main(String[] args) {
         System.out.println(processDiscount(2000, "notebook"));
         System.out.println(processDiscount(1500, 20));
-
         System.out.println(processDiscount(3000, 0, 1000));
     }
 

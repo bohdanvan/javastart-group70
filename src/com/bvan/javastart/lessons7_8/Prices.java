@@ -15,7 +15,6 @@ public class Prices {
         // for-each
         double total = total(prices);
         System.out.println("total = " + total);
-
     }
 
     public static double total(double[] prices) {
